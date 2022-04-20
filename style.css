@@ -1,0 +1,157 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+    background-color: blue;
+    width: 900px;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    border:  1em groove rgb(161, 224, 243);
+    background-image: url("/img/rpm.jpg");
+    background-size:cover;
+}
+
+header{
+    display: flex;
+    background-color: hsla(0, 0%, 0%, 0.507);
+    margin-top: 2%;
+    padding: 1%;
+    border-bottom: 0.5em solid rgba(100, 100, 100, 0.356);
+}
+
+header h1{
+    font-size: 3.5em;
+    width: 8em;
+    color: white;
+    text-align: left;
+    margin-left: 5%;
+    padding: 5px;
+    text-shadow: 3px 3px 1px rgb(3, 191, 248)
+}
+
+header input{
+    color: rgb(161, 224, 243);
+    background-color: black;
+    width: 4em;
+    font-size: 3.5em;
+    border-radius: 0.25em;
+    margin-right: 5%;
+    padding: 5px;
+}
+
+header input:hover{
+    background-color: rgb(53, 53, 53);
+    border-color: rgb(161, 224, 243);
+} 
+/*----------------------------------------------*/
+.secao-container{
+    border-bottom: 0.5em solid rgba(100, 100, 100, 0.356);
+    padding: 1%;
+    display: none;
+}
+
+.secao-container div h2{
+    font-size: 2.5em;
+    text-shadow: 2px 2px 2px rgb(162, 218, 235);
+    padding-bottom: 10px;
+}
+
+#help-texto p{
+    font-size: 2em;
+    color:rgb(0, 255, 157);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0); 
+    font-style: italic;
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*------------------------------------------------------*/
+.secao-inputs{
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    justify-content: center;
+    border-bottom: 0.5em solid rgba(100, 100, 100, 0.356);
+}
+
+.secao-inputs input{
+    display: flex;
+    width: 800px;
+    font-size: 48px;
+    margin: 10px auto;
+    border: none;
+    border-bottom: 3px solid rgb(100, 223, 228);
+    border-right: 3px solid rgb(100, 223, 228);
+    border-radius: 10px;
+    text-align: center;
+    color:aliceblue;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.678);
+    text-shadow: 2px 2px 1px rgba(255, 8, 8, 0.801);
+}
+
+.secao-inputs input:hover{
+    background-color: rgba(77, 77, 77, 0.642);
+}
+
+.secao-inputs .calcula-rpm{
+    display: flex;
+    justify-content: center;
+    color: rgb(250, 53, 53);
+    margin-top: 40px;
+    font-style: italic;
+    font-weight: bolder;
+    border: 3px solid rgb(100, 223, 228);
+    text-shadow: 2px 2px 1px rgba(91, 174, 241, 0.801);
+}
+
+/*-----------------------------------------------------*/
+.resultado input{
+    background-color: rgba(0, 0, 0, 0.219);
+    width: 800px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: rgb(248, 53, 53);
+    margin-top: 30px;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+    margin: 10px auto;
+    border-top: 3px solid rgb(100, 223, 228);
+    border-right: 3px solid rgb(100, 223, 228);
+    text-shadow: 2px 2px 1px rgb(86, 241, 39);
+    
+}
+/*-----------------------------------------------------*/
+footer{
+    text-align: right;
+    padding: 10px;
+    color:rgb(120, 156, 221);
+    font-style: italic;
+    text-shadow: 1px 1px 1px white;
+    margin-right: 25px;
+}
+
+
+
+@media (max-width: 1440px) {
+    body{
+        background-color: red;
+    }
+}
+
+@media (max-width: 1024px){
+    body{
+        background-color: aquamarine;
+    }
+}

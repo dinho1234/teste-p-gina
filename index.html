@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calcular RPM</title>
+    
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 class="titulo-container">Calcular RPM</h1>
+            <input id="help-botao" type="button" value="Help" >
+        </header>
+        <section class="secao-container">
+            <div id="help-texto">
+                <h2>O que é RPM?</h2>
+                <p >"É o número de rotações por minuto: a quantidade de voltas que um corpo giratório completa em volta do seu eixo a cada minuto.<br>
+                    Para calcula-lo basta saber o diâmetro da peça/ferramenta e a velocidade de corte adequada."</p>
+            </div>
+        </section>
+        <section>
+            <div class="secao-inputs">
+                <input class="input-diametro" type="number" name="" id="" placeholder="Diâmetro da peça/ferramenta(mm):">
+                <br>
+                <input class="input-velocidade" type="number" name="" id="" placeholder="Velocidade de corte(m/min):">
+                <input onmouseenter="mouseEnter()"  onmouseout="mouseOut()" onclick="clicou()" class="calcula-rpm" type="button" value="CALCULAR RPM">
+            </div>
+        </section>
+        <section>
+            <div class="resultado">
+                 <input class="resultado-rpm" type="text" name="" id="" placeholder="RPM" disabled>
+            </div>
+        </section>
+        <footer>
+            por: Wanderley F. Melo
+        </footer>
+ 
+    <script src="js/javascript.js"></script>
+
+</body>
+</html>
